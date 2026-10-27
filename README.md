@@ -1,7 +1,8 @@
 # EUTONOS releases
 
-This repository publishes signed EUTONOS releases. The source code is kept elsewhere; only release files appear here,
-under [Releases](../../releases).
+This repository publishes signed EUTONOS releases, under [Releases](../../releases). To read the source code of a
+release, see [EUTONOS/core](https://github.com/EUTONOS/core): it holds one read-only snapshot per release, tagged with
+the same version.
 
 ## Install
 
