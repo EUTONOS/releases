@@ -3,7 +3,15 @@
 This repository publishes signed EUTONOS releases. The source code is kept elsewhere; only release files appear here,
 under [Releases](../../releases).
 
-Each release carries three files:
+## Install
+
+Download `EUTONOS-Setup-<version>.exe` from the newest release and run it (Windows, per user; no administrator
+rights). Setup.exe is not code-signed yet, so Windows SmartScreen may say "Windows protected your PC": choose
+"More info", then "Run anyway".
+
+## What a release carries
+
+Besides Setup.exe, each release carries three files that an installed EUTONOS uses to update itself:
 
 - the EUTONOS package (`.whl`);
 - `eutonos-release.json`, which names the version and the package's sha256;
